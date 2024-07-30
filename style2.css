@@ -1,0 +1,62 @@
+ 
+ *{
+    margin:0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+ }
+
+ form{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: auto;
+    border: radius 6px;;
+
+ }
+
+ h4{
+    text-align: center;
+    font-size: 15px;
+
+ }
+
+ hr{
+    margin:10px 0;
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    width:100;
+
+ }
+
+ .NameField{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+ }
+
+ .NameField div {
+    display: flex;
+    flex-direction: column;
+
+ }
+
+ .NameField div{
+    width: 49%;
+
+ }
+
+ label{
+    margin-bottom: 6px;
+
+ }
+
+ input{
+    margin-bottom: 5px;
+    padding: 5px;
+    outline: 0;
+    border: 1px solid rgba(0,0,0,0.2);
+ }

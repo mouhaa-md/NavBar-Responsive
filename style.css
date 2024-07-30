@@ -1,0 +1,42 @@
+body{
+     
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/Images/NavBar\ Hotel.avif);
+    background-size: cover;
+}
+
+
+.NavBar{
+    position: absolute;
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.NavBar a{
+    color: black;
+}
+
+.NavBar .logo{
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+.NavBar .Navlinks ul{
+    display: flex;
+}
+
+.NavBar .Navlinks ul li{
+
+    margin: 0 25px;
+}
